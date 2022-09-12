@@ -1,0 +1,84 @@
+h1 {
+  padding-left: 120px;
+}
+.container {
+  display:grid;
+  grid-template-columns: repeat(4, 80px);
+  grid-template-rows: repeat(5, 40px);
+  grid-gap: 10px;
+  padding-left: 30px;
+  font-size: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color:rgb(87, 24, 24)
+}
+.value1 {
+  grid-column-start: span 4; 
+}
+.input {
+  box-shadow: 3px 3px 3px rgb(70, 66, 78); 
+  background-color: blanchedalmond;
+  border-radius: 5px;
+  height: 25px;
+  font-size: 17px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.buttons {
+  display:grid;
+  grid-template-columns: repeat(4, 40px);
+  grid-gap: 30px;
+  
+}
+.value2 {
+  grid-column-start: span 4;
+  padding-top: 5px;
+
+}
+.countIt {
+  grid-column-start: span 4;
+  padding-left: 31%;  
+}
+.count {
+  border-radius: 7px;
+  box-shadow: 3px 3px 3px rgb(70, 66, 78);
+  background-color: bisque;
+  font-size: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.plus  {
+  background-color:azure;
+  font-size: 30px;
+  font-weight: bold;
+  border-radius: 15px;
+  box-shadow: 5px 5px 5px rgb(104, 100, 113);
+}
+.minus {
+  background-color:blanchedalmond;
+  font-size: 30px;
+  font-weight: bold;
+  border-radius: 15px; 
+  box-shadow: 5px 5px 5px rgb(104, 100, 113);
+}
+.times {
+  background-color:beige;
+  font-size: 30px;
+  font-weight: bold;
+  border-radius: 15px;
+  box-shadow: 5px 5px 5px rgb(104, 100, 113);
+}
+.devide {
+  background-color:bisque;
+  font-size: 30px;
+  font-weight: bold;
+  border-radius: 15px;
+  box-shadow: 5px 5px 5px rgb(104, 100, 113);
+}
+
+.sum {
+  grid-row-start: 5;
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+.result {
+  grid-row-start: 5;
+  grid-column-start: span 3;
+}

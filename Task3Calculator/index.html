@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link href="./style.css" rel="stylesheet"> 
+    <title>Calculator</title>
+  </head>
+  <body>
+    <h1>Calculator</h1>
+    <div class="container">
+    <div class="value1"> Value 1 <input class="input" type="number" id="Value1" /></div>
+    <div class="buttons" id="buttons">
+      <button class="plus" id="plus" onclick= "mark='+'">+</button>
+      <button class="minus" id="minus" onclick= "mark='-'">-</button>
+      <button class="times" id="times" onclick= "mark='*'">*</button>
+      <button class="devide" id="devide" onclick= "mark='/'">/</button>
+    </div>
+    <div class="value2"> Value 2 <input class="input" type="number" id="Value2" /></div>
+    <div class="countIt"><button class="count" onclick="count()">COMPUTE</button></div>
+    <p class="sum">RESULT:</p>
+    <p class="result" id="result"> </p>
+    </div>
+
+  
+  <script src="./index.js"></script>
+  <script src="./index1.js"></script>
+</body>
+</html>

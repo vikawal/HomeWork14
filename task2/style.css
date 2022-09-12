@@ -1,0 +1,8 @@
+.figure {
+    width: 350px;
+    height: 350px;
+    background: rgb(239, 166, 8);
+    border-width: 50px;
+  border-style: outset;
+  border-color: rgb(14, 195, 240);
+  }
